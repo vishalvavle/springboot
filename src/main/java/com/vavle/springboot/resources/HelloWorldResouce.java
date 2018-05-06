@@ -14,6 +14,6 @@ public class HelloWorldResouce {
 	
 	@GetMapping("/sum/{a}")
 	public int sum(@PathVariable int a) {
-		return a+ 10;
+		return a+ 20;
 	}
 }
