@@ -1,5 +1,7 @@
 package com.vavle.springboot;
 
+import static org.junit.Assert.*;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,6 +13,8 @@ public class SpringbootApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		
+		assertTrue(1==1);
 	}
 
 }
